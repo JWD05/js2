@@ -2,13 +2,13 @@
 
 function concatenate(first, last) {
     var full;
-    full = `${first} ${last}";
-   
+    full = `${first} ${last}`;
+   return full;
   }
-  getName(first, lastName) {
+  function getName(firstName, lastName) {
     var result;
-    result = concate(firstName, lastName);
-    console.log(result );
+    result = concatenate(firstName, lastName);
+    console.log(result);
   }
-  secondFunction("Zara’, "Williams");
+  getName("Zara", "Williams");
   

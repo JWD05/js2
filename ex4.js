@@ -4,23 +4,22 @@ const morningGreetings = (name) => {
     console.log(`Good morning ${name}`); 
   }
   const eveningGreeting = function (firstName) {
-    console.log(`Good evening ${name}`);
+    console.log(`Good evening ${firstName}`);
   }
    
-  const todaysGreeting = () {
+  const todaysGreeting = () =>{
     morningGreetings('Lisa')
     console.log(`Thanks for all you have done during the day`);
-    eveningGreeting('Lisa”);
+    eveningGreeting('Lisa');
   }
    
   todaysGreeting();
    
-   function myCounter ()  {
-    let count = 0
-    return function () {
-       ++count;
-    }
+   function myCounter(){
+    let count = 0;
+      return ++count;   
   }
-  const noOfTimes = myCounters();
-  console.log(noOfTimes(“am I meant to be here?”)); 
+
+  const noOfTimes = myCounter();
+  console.log(noOfTimes); 
   
